@@ -1,0 +1,8 @@
+pkg update && pkg upgrade
+pkg install imagemagick
+pkg install bash
+pkg install ffmpeg
+pkg install nodejs
+termux-setup-storage
+cd /sdcard/mybotprivate-master
+npm start
